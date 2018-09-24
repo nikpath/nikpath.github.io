@@ -4,12 +4,97 @@
 
 <head>
   <title>Anoushka Pathak</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="main.css">
 
 </head>
 
 <body>
-  <h1>I am Anoushka Pathak!</h1>
+
+  <!--tabs in top nav bar-->
+    <div class = "tab">
+      <a class = "tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Home</a>
+      <a class = "tablinks" onclick="openTab(event, 'Resume')">Resume</a>
+      <a class = "tablinks" onclick="openTab(event, 'aboutMe')">About Me</a>
+      <a class = "tablinks" onclick="openTab(event, 'uniLife')">University Life</a>
+      <a class = "tablinks" onclick="openTab(event, 'Art')">Art</a>
+    </div>
+
+<!-- Tab content -->
+    <div id="Home" class="tabcontent">
+      <!--Title and subtitles on home page -->
+      <div class="header"
+        <h1>Anoushka Pathak</h1>
+      </div>
+
+      <div class="content"
+        <h2>1A Mechatronics Engineering, University of Waterloo</h2>
+      </div>
+
+      <!--social media buttons -->
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <div class="social-icons">
+          <a href="mailto:a9pathak@edu.uwaterloo.ca" <i class="fas fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/anoushka-pathak-101a94170/" <i class="fab fa-linkedin"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100011500718035" <i class="fab fa-facebook-square"></i></a>
+          <a href="https://github.com/nikpath" <i class="fab fa-github-square"></i></a>
+          <a href="https://www.instagram.com/bikiboniki/?hl=en" <i class="fab fa-instagram"></i></a>
+        </div>
+
+    </div>
+
+  <!-- Resume-->
+  <div id="Resume" class="tabcontent">
+     <object width = "100%" height = "100%" data = "RESUME copy.pdf"></object>
+  </div>
+
+<!-- About me page (INCOMPLETE)-->
+  <div id="aboutMe" class="tabcontent">
+    <center>
+    <!-- <img src="20180722-IMG_1545.png" alt="My Face"></img> -->
+  </center>
+  </div>
+<!-- University Life (INCOMPLETE)-->
+  <div id="uniLife" class="tabcontent">
+    <h3>University Life</h3>
+    <p>Here I will be recounting and discussing my experience in my first term of Mechatronics Engineering at the University of Waterloo.</p>
+  </div>
+
+<!-- art (INCOMPLETE)-->
+  <div id="Art" class="tabcontent">
+    <h3>My art</h3>
+    <p>I do Art. Here is my art.</p>
+  </div>
+
+<!-- JS for tabs-->
+  <script>
+  function openTab(evt, tabName) {
+
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
 
 </body>
 
