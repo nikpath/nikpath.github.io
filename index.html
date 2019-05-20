@@ -1,5 +1,12 @@
 <!doctype html>
+<!--
+UPDATE:
+- commented out about me and art tabs
+- Updated Resume
+- finished uni life tab by included projects, experience and courses
 
+credit:tjrogers82 for project divs
+-->
 <html>
 
 <head>
@@ -12,24 +19,15 @@
 
 <body>
 
-  <!--tabs in top nav bar-->
-    <div class = "tab">
-      <a class = "tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Home</a>
-      <a class = "tablinks" onclick="openTab(event, 'Resume')">Resume</a>
-      <a class = "tablinks" onclick="openTab(event, 'aboutMe')">About Me</a>
-      <a class = "tablinks" onclick="openTab(event, 'uniLife')">University Life</a>
-      <a class = "tablinks" onclick="openTab(event, 'Art')">Art</a>
-    </div>
-
-<!-- Tab content -->
-    <div id="Home" class="tabcontent">
+    <div id="Home">
       <!--Title and subtitles on home page -->
+      <div id="homeSec">
       <div class="header"
         <h1>Anoushka Pathak</h1>
       </div>
 
       <div class="content"
-        <h2>1A Mechatronics Engineering, University of Waterloo</h2>
+        <h2>Mechatronics Engineering, University of Waterloo</h2>
       </div>
 
       <!--social media buttons -->
@@ -39,35 +37,95 @@
           <a href="https://www.linkedin.com/in/anoushka-pathak-101a94170/" <i class="fab fa-linkedin"></i></a>
           <a href="https://www.facebook.com/profile.php?id=100011500718035" <i class="fab fa-facebook-square"></i></a>
           <a href="https://github.com/nikpath" <i class="fab fa-github-square"></i></a>
-          <a href="https://www.instagram.com/bikiboniki/?hl=en" <i class="fab fa-instagram"></i></a>
+          <a href="https://www.instagram.com/bikiboniki/?hl=en" <i class="fab fa-instagram"></i></a><br/>
+          <center>
+            <br/>
+          <a href="resumefinal.pdf" style="font-size:30px;">Resume</a>
+          <center>
         </div>
 
+<!--scroll down prompt arrow-->
+        <div id="godown" class="arrow bounce">
+      <a class="fa fa-arrow-down fa-4x" href="#"></a>
+    </div>
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+
+      </div>
+
+<!--about me blurb-->
+      <div id="aboutSec">
+        <center>
+          <h1>About</h1>
+          <h2>Hey, I'm a first year TRON student and this is a little website I put together to try my hand at web design and to have a place where I can show off
+            my art and various projects. I am an avid movie-watcher, book-reader, food-eater, and pun-maker. I'll be updating this website every couple of months.
+            Meanwhile, I am always available to contact through social media. </h2>
+        <!--<img src="20180722-IMG_1545.png" alt="My Face"></img>-->
+      </center>
     </div>
 
-  <!-- Resume-->
-  <div id="Resume" class="tabcontent">
-     <object width = "100%" height = "100%" data = "RESUME copy.pdf"></object>
-  </div>
+<!--List of projects/university stuff -->
+    <div id="projSec">
+      <center>
+      <h1>Projects</h1><h2> (Try hovering on each)</h2>
+      <center>
+      <center>
+      <!--COURSES-->
+      <div class="projContainer">
+        <div class="projInfoContainer">
+          <img src="UWLogo.png" alt="courseImg" >
+        </div>
+        <h1>Courses</h1>
+        <h2 class="projSpec" >MTE140: Data Structures & Algorithms (C++)<br />
+        MTE100: Engineering Graphic and Design - AutoCAD, SolidWorks, GD&T<br />
+        GENE121: Digital Computation - C++ and RobotC</h2>
+      </div>
 
-<!-- About me page (INCOMPLETE)-->
-  <div id="aboutMe" class="tabcontent">
-    <center>
-    <!-- <img src="20180722-IMG_1545.png" alt="My Face"></img> -->
-  </center>
-  </div>
-<!-- University Life (INCOMPLETE)-->
-  <div id="uniLife" class="tabcontent">
-    <h3>University Life</h3>
-    <p>Here I will be recounting and discussing my experience in my first term of Mechatronics Engineering at the University of Waterloo.</p>
-  </div>
+      <!--JENGI-->
+      <div class="projContainer">
+        <div class="projInfoContainer">
+          <img src="jengi.jpg" alt="jengiImg">
+        </div>
+        <h1>Jenga Builder</h1>
+        <h2 class="projSpec">For our final project in 1A, we created a robot which builds a Jenga tower.
+          Lego, Tetrix kits and various other materials were used. It was programmed in RobotC.</h2>
+      </div>
+
+      <!--TRONDAY-->
+      <div class="projContainer">
+        <div class="projInfoContainer">
+          <img src="grover.jpg" alt="trondaybot">
+        </div>
+        <h1>Tron Days Project</h1>
+        <h2 class="projSpec">Within two days, we had to design and build a robot using Tetrix kits and pneumatics.
+           It's function was to navigate to a pile of small, light-weight objects
+           and place them on hooks, platforms, and holes within a given time limit.</h2>
+      </div>
+
+      <!--CELLSTAND-->
+      <div class="projContainer">
+        <div class="projInfoContainer">
+          <img src="cellStand.JPG" alt="cellStand" style="transform:rotate(90deg);">
+        </div>
+        <h1>3D Printed Cellphone Stand</h1>
+        <h2 class="projSpec">Given limits on dimensions and material amount we had to design and print a cellphone stand.
+          Software used: Solidworks</h2>
+      </div>
+      <center>
+    </div>
+
+      <!-- END MAIN -->
+    </div>
+
+
+
 
 <!-- art (INCOMPLETE)-->
-  <div id="Art" class="tabcontent">
+  <!--<div id="Art" class="tabcontent">
     <h3>My art</h3>
     <p>I do Art. Here is my art.</p>
-  </div>
+  </div>-->
 
-<!-- JS for tabs-->
+<!-- JS -->
   <script>
   function openTab(evt, tabName) {
 
@@ -89,6 +147,19 @@
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
+}
+
+window.onscroll = function(ev) {
+    if (document.body.scrollTop >= document.body.clientHeight || document.documentElement.scrollTop > document.body.clientHeight) {
+        document.getElementById("godown").style.display="none";
+        document.getElementById("topBtn").style.display="block";
+    }
+};
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.getElementById("topBtn").style.display="none";
 }
 
 // Get the element with id="defaultOpen" and click on it
