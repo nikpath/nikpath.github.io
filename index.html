@@ -1,12 +1,4 @@
 <!doctype html>
-<!--
-UPDATE:
-- commented out about me and art tabs
-- Updated Resume
-- finished uni life tab by included projects, experience and courses
-
-credit:tjrogers82 for project divs
--->
 <html>
 
 <head>
@@ -14,52 +6,44 @@ credit:tjrogers82 for project divs
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="main.css">
-
 </head>
 
 <body>
-
     <div id="Home">
       <!--Title and subtitles on home page -->
       <div id="homeSec">
-      <div class="header"
-        <h1>Anoushka Pathak</h1>
-      </div>
-
-      <div class="content"
-        <h2>Mechatronics Engineering, University of Waterloo</h2>
-      </div>
-
+        <div class="header"
+          <h1>Anoushka Pathak</h1>
+        </div>
+        <div class="content"
+          <h2>2A Mechatronics Engineering, University of Waterloo</h2>
+        </div>
       <!--social media buttons -->
-          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <div class="social-icons">
-          <a href="mailto:a9pathak@edu.uwaterloo.ca" <i class="fas fa-envelope"></i></a>
+          <a href="mailto:a9pathak@uwaterloo.ca" <i class="fas fa-envelope"></i></a>
           <a href="https://www.linkedin.com/in/anoushka-pathak-101a94170/" <i class="fab fa-linkedin"></i></a>
           <a href="https://www.facebook.com/profile.php?id=100011500718035" <i class="fab fa-facebook-square"></i></a>
           <a href="https://github.com/nikpath" <i class="fab fa-github-square"></i></a>
           <a href="https://www.instagram.com/nikpath18/" <i class="fab fa-instagram"></i></a><br/>
           <center>
             <br/>
-          <a href="resumehard.pdf" style="font-size:30px;">Mechatronics Resume</a>
-          <center>
-          <a href="resumewebdev.pdf" style="font-size:30px;">Full Stack Resume</a>
+          <!--<a href="resumewebdev.pdf" style="font-size:30px;">Full Stack Resume</a>-->
         </div>
 
-<!--scroll down prompt arrow-->
-        <div id="godown" class="arrow bounce">
-      <a class="fa fa-arrow-down fa-4x" href="#"></a>
-    </div>
-    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
-
+<!--scroll to top functionality-->
+        <div>
+          <button id="topBtn" title="Go to top">Top</button>
+        </div>
       </div>
+    </div>
 
 <!--about me blurb-->
       <div id="aboutSec">
         <center>
           <h1>About</h1>
-          <h2>Hey, I'm a second year TRON student and this is a little website I put together to try my hand at web design and to have a place where I can show off
-            my art and various projects. I am an avid movie-watcher, book-reader, food-eater, and pun-maker. I'll be updating this website every couple of months.
-            Meanwhile, I am always available to contact through social media. </h2>
+          <h2>Hey, I'm a second year Mechatronics student and this is a little website I put together to showcase my skills, experience, and various projects. I am an avid movie-watcher, book-reader, food-eater, and pun-maker. I'll be updating this website every couple of months.
+            Meanwhile, I am always available to contact through e-mail. </h2>
         <!--<img src="20180722-IMG_1545.png" alt="My Face"></img>-->
       </center>
     </div>
@@ -128,40 +112,19 @@ credit:tjrogers82 for project divs
 
 <!-- JS -->
   <script>
-  function openTab(evt, tabName) {
-
-    // Declare all variables
-    var i, tabcontent, tablinks;
-
-    // Get all elements with class="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(tabName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
+  var topBtn = document.getElementById("topBtn");
 
 window.onscroll = function(ev) {
     if (document.body.scrollTop >= document.body.clientHeight || document.documentElement.scrollTop > document.body.clientHeight) {
-        document.getElementById("godown").style.display="none";
-        document.getElementById("topBtn").style.display="block";
+        topBtn.style.display="block";
     }
 };
 
-function topFunction() {
+topBtn.onclick = function() {
+  topBtn.style.display="none";
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  document.getElementById("topBtn").style.display="none";
-}
+};
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();

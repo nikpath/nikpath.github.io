@@ -21,20 +21,19 @@ h2{
 
 #homeSec{
   min-height: 100vh;
-  background-image:linear-gradient(white, #d2f2ff);
+  background-image:linear-gradient(#fffdf4, white);
 }
 
 #aboutSec{
   color: #777;
-  background-color: white;
-  font:"HelveticaNeue-Light";
-  min-height: 30vh;
+  background-color: linear-gradient(white,#fffdf4);;
+  min-height: 100vh;
   margin-left: 20%;
   margin-right: 20%;
 }
 
 #projSec{
-  background-image:linear-gradient(#d2f2ff,white);
+  background-image:linear-gradient(white,#fffdf4);
   min-height: 100vh;
   color: #545454;
   font-weight:lighter;
@@ -168,7 +167,7 @@ a { color: #777; text-decoration: none; }
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: grey; /* Set a background color */
+  background-color: #dad7d1; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
