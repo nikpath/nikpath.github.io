@@ -26,19 +26,33 @@ h2{
 
 #aboutSec{
   color: #777;
-  background-color: linear-gradient(white,#fffdf4);;
+  background-color: linear-gradient(white, #fffdf4);;
   min-height: 100vh;
   margin-left: 20%;
   margin-right: 20%;
 }
 
-#projSec{
-  background-image:linear-gradient(white,#fffdf4);
+#workSec{
+  color: #777;
+  background-image:linear-gradient(#fffdf4, white);
   min-height: 100vh;
-  color: #545454;
   font-weight:lighter;
-  padding-top:2%
 }
+
+#projSec{
+  color: #777;
+  background-image:linear-gradient(white, #fffdf4);
+  min-height: 100vh;
+  font-weight:lighter;
+}
+
+#CADSec{
+  color: #777;
+  background-image:linear-gradient(#fffdf4, white);
+  min-height: 100vh;
+  font-weight:lighter;
+}
+
 
 .projContainer {
   display: inline-grid;
