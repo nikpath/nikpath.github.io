@@ -46,11 +46,7 @@ function Park() {
       />
     </svg>
   );*/
-  return (
-    <div className="container">
-      <p>&copy; Niki Pathak 2022</p>
-    </div>
-  );
+  return null;
 }
 
 export default Park;

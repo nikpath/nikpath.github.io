@@ -1,7 +1,7 @@
 import "./css/App.css";
 import Navbar from "./Navbar";
 import InfoCard from "./InfoCard";
-import Park from "./Park";
+import "./css/Park.css";
 
 function App() {
   return (
@@ -21,7 +21,9 @@ function App() {
         </div>
       </div>
       <div className="ani-section">
-        <Park />
+        <div className="container">
+          <p>&copy; Niki Pathak 2022</p>
+        </div>
       </div>
     </div>
   );

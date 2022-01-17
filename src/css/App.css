@@ -53,8 +53,8 @@
   height: 100%;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
-  /*margin-top: 70px;*/
+  align-items: flex-start;
+  margin-top: 150px;
 }
 
 .left-section {
