@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/amusement-park/static/css/main.6e32a87c.css",
+    "main.js": "/amusement-park/static/js/main.441fd476.js",
+    "static/js/787.4f8c8fef.chunk.js": "/amusement-park/static/js/787.4f8c8fef.chunk.js",
+    "static/media/Commissioner-Regular.ttf": "/amusement-park/static/media/Commissioner-Regular.d3087ff2e4400bf0e472.ttf",
+    "static/media/MajorMonoDisplay-Regular.ttf": "/amusement-park/static/media/MajorMonoDisplay-Regular.c38f17b4bff4a287cf20.ttf",
+    "static/media/SpaceMono-Regular.ttf": "/amusement-park/static/media/SpaceMono-Regular.ab58bedcb5ec0e553893.ttf",
+    "static/media/resume.pdf": "/amusement-park/static/media/resume.5dce45a19cdb9fd096ea.pdf",
+    "static/media/Fraunces_120pt_Soft_Wonky-Regular.ttf": "/amusement-park/static/media/Fraunces_120pt_Soft_Wonky-Regular.cfff7466b1ec2ef4919b.ttf",
+    "static/media/Fraunces_120pt_SuperSoft_Wonky-Bold.ttf": "/amusement-park/static/media/Fraunces_120pt_SuperSoft_Wonky-Bold.0a058a89590f61806f57.ttf",
+    "static/media/logoNP.svg": "/amusement-park/static/media/logoNP.e8cba66aa6408e6d049dd2e7021b9eb1.svg",
+    "static/media/location.svg": "/amusement-park/static/media/location.e7e17c3e80abf70e2e674c95ee020949.svg",
+    "static/media/graduation-cap.svg": "/amusement-park/static/media/graduation-cap.cb4a0ec90a1f8056a73c2c8c238e1f86.svg",
+    "index.html": "/amusement-park/index.html",
+    "static/media/github.svg": "/amusement-park/static/media/github.0c95366511fc72ce599d201a32c9649e.svg",
+    "static/media/codepen.svg": "/amusement-park/static/media/codepen.654f47b29c0c68b23be6e3ac912e0bf7.svg",
+    "static/media/instagram.svg": "/amusement-park/static/media/instagram.da74e63de590b045b031f91e48c79dfd.svg",
+    "static/media/linkedin.svg": "/amusement-park/static/media/linkedin.fc83d12431c3e09b200b04403ff55fb3.svg",
+    "static/media/email.svg": "/amusement-park/static/media/email.48cf07522b13a669ec404b87eaf0a888.svg",
+    "main.6e32a87c.css.map": "/amusement-park/static/css/main.6e32a87c.css.map",
+    "main.441fd476.js.map": "/amusement-park/static/js/main.441fd476.js.map",
+    "787.4f8c8fef.chunk.js.map": "/amusement-park/static/js/787.4f8c8fef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e32a87c.css",
+    "static/js/main.441fd476.js"
+  ]
+}
