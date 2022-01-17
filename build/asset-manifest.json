@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.01ad3508.css",
+    "main.js": "/static/js/main.ae94dd17.js",
+    "static/js/787.4f8c8fef.chunk.js": "/static/js/787.4f8c8fef.chunk.js",
+    "static/media/Commissioner-Regular.ttf": "/static/media/Commissioner-Regular.d3087ff2e4400bf0e472.ttf",
+    "static/media/MajorMonoDisplay-Regular.ttf": "/static/media/MajorMonoDisplay-Regular.c38f17b4bff4a287cf20.ttf",
+    "static/media/SpaceMono-Regular.ttf": "/static/media/SpaceMono-Regular.ab58bedcb5ec0e553893.ttf",
+    "static/media/resume.pdf": "/static/media/resume.5dce45a19cdb9fd096ea.pdf",
+    "static/media/Fraunces_120pt_Soft_Wonky-Regular.ttf": "/static/media/Fraunces_120pt_Soft_Wonky-Regular.cfff7466b1ec2ef4919b.ttf",
+    "static/media/Fraunces_120pt_SuperSoft_Wonky-Bold.ttf": "/static/media/Fraunces_120pt_SuperSoft_Wonky-Bold.0a058a89590f61806f57.ttf",
+    "static/media/logoNP.svg": "/static/media/logoNP.e8cba66aa6408e6d049dd2e7021b9eb1.svg",
+    "static/media/location.svg": "/static/media/location.e7e17c3e80abf70e2e674c95ee020949.svg",
+    "static/media/graduation-cap.svg": "/static/media/graduation-cap.cb4a0ec90a1f8056a73c2c8c238e1f86.svg",
+    "index.html": "/index.html",
+    "static/media/github.svg": "/static/media/github.0c95366511fc72ce599d201a32c9649e.svg",
+    "static/media/codepen.svg": "/static/media/codepen.654f47b29c0c68b23be6e3ac912e0bf7.svg",
+    "static/media/instagram.svg": "/static/media/instagram.da74e63de590b045b031f91e48c79dfd.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.fc83d12431c3e09b200b04403ff55fb3.svg",
+    "static/media/email.svg": "/static/media/email.48cf07522b13a669ec404b87eaf0a888.svg",
+    "main.01ad3508.css.map": "/static/css/main.01ad3508.css.map",
+    "main.ae94dd17.js.map": "/static/js/main.ae94dd17.js.map",
+    "787.4f8c8fef.chunk.js.map": "/static/js/787.4f8c8fef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01ad3508.css",
+    "static/js/main.ae94dd17.js"
+  ]
+}

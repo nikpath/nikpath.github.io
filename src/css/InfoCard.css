@@ -1,0 +1,71 @@
+.Card {
+  max-width: 700px;
+  height: 100%;
+  text-align: left;
+}
+
+@font-face {
+  font-family: "Commissioner";
+  src: local("Commissioner"),
+    url(../fonts/Commissioner/static/Commissioner-Regular.ttf)
+      format("truetype");
+  /* other formats include: 'woff2', 'truetype, 'opentype','embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: "Fraunces-Regular";
+  src: local("Fraunces-Regular"),
+    url("../fonts/Fraunces/static/Fraunces_120pt_Soft_Wonky/Fraunces_120pt_Soft_Wonky-Regular.ttf")
+      format("truetype");
+  /* other formats include: 'woff2', 'truetype, 'opentype','embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: "Major_Mono_Display";
+  src: local("Major_Mono_Display"),
+    url(../fonts/Major_Mono_Display/MajorMonoDisplay-Regular.ttf)
+      format("truetype");
+  /* other formats include: 'woff2', 'truetype, 'opentype','embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: "Space_Mono";
+  src: local("Space_Mono"),
+    url(../fonts/Space_Mono/SpaceMono-Regular.ttf) format("truetype");
+  /* other formats include: 'woff2', 'truetype, 'opentype','embedded-opentype', and 'svg' */
+}
+
+.blurb {
+  font-family: Commissioner;
+  font-size: 20px;
+  color: #010101;
+}
+
+.first {
+  font-family: Fraunces;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.blurb a {
+  color: #fa6ba1;
+  text-decoration: none;
+}
+
+.resume {
+  font-family: Fraunces;
+  margin-top: 10px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 14px;
+  justify-content: flex-end;
+}
+
+.footer img {
+  margin-left: 10px;
+  margin-right: 5px;
+}
