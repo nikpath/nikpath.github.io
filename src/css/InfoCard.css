@@ -1,38 +1,7 @@
-.Card {
+.card {
   max-width: 700px;
   height: 100%;
   text-align: left;
-}
-
-@font-face {
-  font-family: "Commissioner";
-  src: local("Commissioner"),
-    url(../fonts/Commissioner/static/Commissioner-Regular.ttf)
-      format("truetype");
-  /* other formats include: 'woff2', 'truetype, 'opentype','embedded-opentype', and 'svg' */
-}
-
-@font-face {
-  font-family: "Fraunces-Regular";
-  src: local("Fraunces-Regular"),
-    url("../fonts/Fraunces/static/Fraunces_120pt_Soft_Wonky/Fraunces_120pt_Soft_Wonky-Regular.ttf")
-      format("truetype");
-  /* other formats include: 'woff2', 'truetype, 'opentype','embedded-opentype', and 'svg' */
-}
-
-@font-face {
-  font-family: "Major_Mono_Display";
-  src: local("Major_Mono_Display"),
-    url(../fonts/Major_Mono_Display/MajorMonoDisplay-Regular.ttf)
-      format("truetype");
-  /* other formats include: 'woff2', 'truetype, 'opentype','embedded-opentype', and 'svg' */
-}
-
-@font-face {
-  font-family: "Space_Mono";
-  src: local("Space_Mono"),
-    url(../fonts/Space_Mono/SpaceMono-Regular.ttf) format("truetype");
-  /* other formats include: 'woff2', 'truetype, 'opentype','embedded-opentype', and 'svg' */
 }
 
 .blurb {
@@ -52,12 +21,26 @@
   text-decoration: none;
 }
 
+@media (max-width: 800px) {
+  .card {
+    text-align: center;
+    justify-self: center;
+  }
+
+  .first {
+    font-size: 20px;
+  }
+  .blurb {
+    font-size: 14px;
+  }
+}
+
 .resume {
   font-family: Fraunces;
   margin-top: 10px;
 }
 
-.footer {
+.tag {
   display: flex;
   align-items: center;
   width: 100%;
@@ -65,7 +48,16 @@
   justify-content: flex-end;
 }
 
-.footer img {
+@media (max-width: 800px) {
+  .tag {
+    justify-content: flex-start;
+  }
+  .footer {
+    margin-top: 30px;
+  }
+}
+
+.tag img {
   margin-left: 10px;
   margin-right: 5px;
 }

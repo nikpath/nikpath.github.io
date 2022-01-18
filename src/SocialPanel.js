@@ -13,8 +13,8 @@ function SocialPanel(props) {
           src={email}
           className="icon"
           alt="Email me"
-          width="32"
-          height="32"
+          // width="32"
+          // height="32"
         />
       </a>
       <a href="https://codepen.io/nikpath/pens/showcase">
@@ -22,8 +22,8 @@ function SocialPanel(props) {
           src={codepen}
           className="icon"
           alt="Codepen"
-          width="32"
-          height="32"
+          // width="32"
+          // height="32"
         />
       </a>
       <a href="https://www.linkedin.com/in/niki-pathak-101a94170/">
@@ -31,8 +31,8 @@ function SocialPanel(props) {
           src={linkedin}
           className="icon"
           alt="Linkedin"
-          width="32"
-          height="32"
+          // width="32"
+          // height="32"
         />
       </a>
       <a href="https://github.com/nikpath">
@@ -40,8 +40,8 @@ function SocialPanel(props) {
           src={github}
           className="icon"
           alt="Github"
-          width="32"
-          height="32"
+          // width="32"
+          // height="32"
         />
       </a>
       <a href="https://www.instagram.com/y2kaikai/">
@@ -49,8 +49,8 @@ function SocialPanel(props) {
           src={instagram}
           className="icon"
           alt="Instagram"
-          width="32"
-          height="32"
+          // width="32"
+          // height="32"
         />
       </a>
     </div>

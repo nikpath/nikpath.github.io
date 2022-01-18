@@ -5,7 +5,7 @@ import graduationcap from "./icons/graduation-cap.svg";
 
 function InfoCard(props) {
   return (
-    <div className="Card">
+    <div className="card">
       <div className="blurb">
         <p className="first">
           Aspiring software developer with an interest in front-end. I love
@@ -26,12 +26,12 @@ function InfoCard(props) {
           Check out my
           <a href={pdf}> resume </a>for more details.
         </div>
-        <p>
-          <div className="footer">
+        <p className="footer">
+          <div className="tag">
             <img src={location} alt="location" width="24" height="24" />
             University of Waterloo, Waterloo, ON
           </div>
-          <div className="footer">
+          <div className="tag">
             <img src={graduationcap} alt="graduating" width="24" height="24" />
             Expected 2023, Mechatronics Engineering
           </div>

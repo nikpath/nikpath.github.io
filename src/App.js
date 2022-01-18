@@ -9,15 +9,17 @@ function App() {
       <header className="App-header">
         <Navbar />
       </header>
-      <div className="main-section">
-        <div className="left-section">
-          <div className="name-section">
-            Hi, I'm
-            <span className="name"> Niki</span>.
+      <div className="main-container">
+        <div className="main-section">
+          <div className="left-section">
+            <div className="name-section">
+              Hi, I'm
+              <span className="name"> Niki</span>.
+            </div>
           </div>
-        </div>
-        <div className="right-section">
-          <InfoCard />
+          <div className="right-section">
+            <InfoCard />
+          </div>
         </div>
       </div>
       <div className="ani-section">
