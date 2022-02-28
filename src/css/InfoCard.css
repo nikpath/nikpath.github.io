@@ -1,5 +1,4 @@
 .card {
-  max-width: 700px;
   height: 100%;
   text-align: left;
 }
@@ -10,10 +9,15 @@
   color: #010101;
 }
 
+.blurb p + p {
+  max-width: 700px;
+}
+
 .first {
-  font-family: Fraunces;
+  font-family: Space_Mono;
   font-size: 28px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .blurb a {
@@ -22,11 +26,6 @@
 }
 
 @media (max-width: 800px) {
-  .card {
-    text-align: center;
-    justify-self: center;
-  }
-
   .first {
     font-size: 20px;
   }
@@ -36,7 +35,7 @@
 }
 
 .resume {
-  font-family: Fraunces;
+  font-family: Space_Mono;
   margin-top: 10px;
 }
 

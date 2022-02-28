@@ -5,25 +5,17 @@ import "./css/Park.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Navbar />
-      </header>
-      <div className="main-container">
+    <div className="app">
+      <Navbar />
+      <div className="content">
         <div className="main-section">
-          <div className="left-section">
-            <div className="name-section">
-              Hi, I'm
-              <span className="name"> Niki</span>.
-            </div>
+          <div className="name-section">
+            Hi, I'm
+            <span className="name"> Niki Pathak</span>
           </div>
-          <div className="right-section">
-            <InfoCard />
-          </div>
+          <InfoCard />
         </div>
-      </div>
-      <div className="ani-section">
-        <div className="container">
+        <div className="copyright">
           <p>&copy; Niki Pathak 2022</p>
         </div>
       </div>

@@ -1,19 +1,19 @@
 import "./css/InfoCard.css";
 import pdf from "./static/resume.pdf";
-import location from "./icons/location.svg";
-import graduationcap from "./icons/graduation-cap.svg";
+// import location from "./icons/location.svg";
+// import graduationcap from "./icons/graduation-cap.svg";
 
 function InfoCard(props) {
   return (
     <div className="card">
       <div className="blurb">
         <p className="first">
-          Aspiring software developer with an interest in front-end. I love
-          building intuitive, sleek and accessible UIs with React.
+          Aspiring software developer with an interest in front-end.
         </p>
         <p>
-          I’ve had four great internships where I’ve done everything from
-          developing modern{" "}
+          I love building intuitive, sleek and accessible UIs with React. I’ve
+          had four great internships where I’ve done everything from developing
+          modern{" "}
           <a href="https://course.studio/">online learning experiences</a> to
           implementing web accessibility on an{" "}
           <a href="https://www.achievers.com/company/">
@@ -26,7 +26,7 @@ function InfoCard(props) {
           Check out my
           <a href={pdf}> resume </a>for more details.
         </div>
-        <p className="footer">
+        {/* <p className="footer">
           <div className="tag">
             <img src={location} alt="location" width="24" height="24" />
             University of Waterloo, Waterloo, ON
@@ -35,7 +35,7 @@ function InfoCard(props) {
             <img src={graduationcap} alt="graduating" width="24" height="24" />
             Expected 2023, Mechatronics Engineering
           </div>
-        </p>
+        </p> */}
       </div>
     </div>
   );
