@@ -16,26 +16,16 @@
 }
 
 @font-face {
-  font-family: "Commissioner";
-  src: local("Commissioner"),
-    url(../fonts/Commissioner/static/Commissioner-Regular.ttf)
-      format("truetype");
+  font-family: "Mosk_Normal";
+  src: local("Mosk"),
+    url(../fonts/Mosk/Mosk\ Normal\ 400.ttf) format("truetype");
   /* other formats include: 'woff2', 'truetype, 'opentype','embedded-opentype', and 'svg' */
 }
 
 @font-face {
-  font-family: "Fraunces";
-  src: local("Fraunces"),
-    url("../fonts/Fraunces/static/Fraunces_120pt_SuperSoft_Wonky/Fraunces_120pt_SuperSoft_Wonky-Bold.ttf")
-      format("truetype");
-  /* other formats include: 'woff2', 'truetype, 'opentype','embedded-opentype', and 'svg' */
-}
-
-@font-face {
-  font-family: "Major_Mono_Display";
-  src: local("Major_Mono_Display"),
-    url(../fonts/Major_Mono_Display/MajorMonoDisplay-Regular.ttf)
-      format("truetype");
+  font-family: "Mosk_Heading";
+  src: local("Mosk"),
+    url(../fonts/Mosk/Mosk\ Semi-Bold\ 600.ttf) format("truetype");
   /* other formats include: 'woff2', 'truetype, 'opentype','embedded-opentype', and 'svg' */
 }
 
@@ -63,17 +53,16 @@
   }
 }
 
-.name-section {
+.intro {
   font-family: Space_Mono;
   font-size: 20px;
-  text-align: left;
-  color: #505050;
+  color: #101010;
 }
 
 .name {
-  font-family: Commissioner;
-  display: block;
+  font-family: Mosk_Heading;
   font-size: 86px;
+  margin-left: -6px;
   color: #fa6ba1;
 }
 
@@ -87,6 +76,7 @@
 }
 
 .copyright {
+  font-family: Mosk_Normal;
   width: 100%;
   text-align: center;
   color: #505050;

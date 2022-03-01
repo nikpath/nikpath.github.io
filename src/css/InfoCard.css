@@ -4,7 +4,7 @@
 }
 
 .blurb {
-  font-family: Commissioner;
+  font-family: Mosk_Normal;
   font-size: 20px;
   color: #010101;
 }
@@ -14,8 +14,9 @@
 }
 
 .first {
-  font-family: Space_Mono;
-  font-size: 28px;
+  color: #505050;
+  font-family: Mosk_Heading;
+  font-size: 48px;
   margin-bottom: 10px;
   margin-top: 10px;
 }

@@ -9,10 +9,8 @@ function App() {
       <Navbar />
       <div className="content">
         <div className="main-section">
-          <div className="name-section">
-            Hi, I'm
-            <span className="name"> Niki Pathak</span>
-          </div>
+          <div className="intro">Hi, I'm</div>
+          <div className="name">Niki Pathak</div>
           <InfoCard />
         </div>
         <div className="copyright">

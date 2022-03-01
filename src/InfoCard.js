@@ -8,7 +8,7 @@ function InfoCard(props) {
     <div className="card">
       <div className="blurb">
         <p className="first">
-          Aspiring software developer with an interest in front-end.
+          Aspiring software engineer with an interest in UI/UX.
         </p>
         <p>
           I love building intuitive, sleek and accessible UIs with React. I’ve
