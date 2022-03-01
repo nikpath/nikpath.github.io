@@ -7,6 +7,9 @@
   font-family: Mosk_Normal;
   font-size: 20px;
   color: #010101;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .blurb p + p {
@@ -60,4 +63,24 @@
 .tag img {
   margin-left: 10px;
   margin-right: 5px;
+}
+
+.link-button {
+  align-self: flex-end;
+  margin-top: 40px;
+  color: #fa6ba1;
+  background-color: transparent;
+  border: 1px solid #fa6ba1;
+  border-radius: 4px;
+  padding: 20px 28px;
+  font-family: Space_Mono;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link-button:hover,
+.link-button:focus,
+.link-button:active {
+  background-color: rgba(80, 80, 80, 0.1);
+  outline: none;
 }

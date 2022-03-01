@@ -3,7 +3,7 @@ import pdf from "./static/resume.pdf";
 // import location from "./icons/location.svg";
 // import graduationcap from "./icons/graduation-cap.svg";
 
-function InfoCard(props) {
+function InfoCard(_) {
   return (
     <div className="card">
       <div className="blurb">
@@ -22,20 +22,9 @@ function InfoCard(props) {
           I’m looking to continue expanding my horizons and making an impact.
         </p>
         <p>Currently seeking internship opportunities May-Aug 2022.</p>
-        <div className="resume">
-          Check out my
-          <a href={pdf}> resume </a>for more details.
-        </div>
-        {/* <p className="footer">
-          <div className="tag">
-            <img src={location} alt="location" width="24" height="24" />
-            University of Waterloo, Waterloo, ON
-          </div>
-          <div className="tag">
-            <img src={graduationcap} alt="graduating" width="24" height="24" />
-            Expected 2023, Mechatronics Engineering
-          </div>
-        </p> */}
+        <a className="link-button" href={pdf}>
+          View Resume
+        </a>
       </div>
     </div>
   );

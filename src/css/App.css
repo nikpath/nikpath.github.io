@@ -37,6 +37,7 @@
 }
 
 .main-section {
+  min-height: 100vh;
   margin-left: 15%;
   margin-top: 40px;
   padding: 20px;
