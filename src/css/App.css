@@ -39,7 +39,7 @@
 }
 
 .main-section {
-  /* min-height: 100vh; */
+  min-height: 85vh;
   margin-left: 15%;
   margin-top: 40px;
   padding: 20px;
@@ -53,6 +53,7 @@
   .main-section {
     margin-left: 0;
     padding: 20px;
+    min-height: 0;
   }
 }
 

@@ -2,6 +2,7 @@ import "./css/App.css";
 import Navbar from "./Navbar";
 import Arrow from "./Arrow";
 import InfoCard from "./InfoCard";
+import Experience from "./Experience";
 import "./css/Park.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <div className="name">Niki Pathak</div>
           <InfoCard />
         </div>
+        <Experience />
       </div>
       <div className="arrow">
         <Arrow />
