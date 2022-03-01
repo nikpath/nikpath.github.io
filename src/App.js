@@ -1,5 +1,6 @@
 import "./css/App.css";
 import Navbar from "./Navbar";
+import Arrow from "./Arrow";
 import InfoCard from "./InfoCard";
 import "./css/Park.css";
 
@@ -13,9 +14,12 @@ function App() {
           <div className="name">Niki Pathak</div>
           <InfoCard />
         </div>
-        <div className="copyright">
-          <p>&copy; Niki Pathak 2022</p>
-        </div>
+      </div>
+      <div className="arrow">
+        <Arrow />
+      </div>
+      <div className="copyright">
+        <p>&copy; Niki Pathak 2022</p>
       </div>
     </div>
   );

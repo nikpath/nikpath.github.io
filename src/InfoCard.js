@@ -1,5 +1,6 @@
 import "./css/InfoCard.css";
 import pdf from "./static/resume.pdf";
+import Arrow from "./Arrow";
 // import location from "./icons/location.svg";
 // import graduationcap from "./icons/graduation-cap.svg";
 
@@ -22,9 +23,11 @@ function InfoCard(_) {
           I’m looking to continue expanding my horizons and making an impact.
         </p>
         <p>Currently seeking internship opportunities May-Aug 2022.</p>
-        <a className="link-button" href={pdf}>
-          View Resume
-        </a>
+        <div className="resume">
+          <a className="link-button" href={pdf}>
+            View Resume
+          </a>
+        </div>
       </div>
     </div>
   );

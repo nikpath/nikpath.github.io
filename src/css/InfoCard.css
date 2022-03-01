@@ -66,8 +66,6 @@
 }
 
 .link-button {
-  align-self: flex-end;
-  margin-top: 40px;
   color: #fa6ba1;
   background-color: transparent;
   border: 1px solid #fa6ba1;
@@ -83,4 +81,10 @@
 .link-button:active {
   background-color: rgba(80, 80, 80, 0.1);
   outline: none;
+}
+
+.resume {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
