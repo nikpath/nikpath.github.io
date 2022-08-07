@@ -3,7 +3,6 @@ import Navbar from "./Navbar";
 import Arrow from "./Arrow";
 import InfoCard from "./InfoCard";
 import Experience from "./Experience";
-import "./css/Park.css";
 
 function App() {
   return (

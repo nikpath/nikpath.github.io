@@ -36,7 +36,7 @@ function Arrow() {
       <div id="wrapper">
         <div id="wrapper-inner">
           <div id="scroll-down">
-            <span class="arrow-down"></span>
+            <span className="arrow-down"></span>
             <span id="scroll-title">Scroll Down</span>
           </div>
         </div>
