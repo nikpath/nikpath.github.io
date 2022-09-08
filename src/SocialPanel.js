@@ -1,9 +1,10 @@
 import "./css/SocialPanel.css";
 import email from "./icons/email.svg";
-import codepen from "./icons/codepen.svg";
 import linkedin from "./icons/linkedin.svg";
 import github from "./icons/github.svg";
+import codepen from "./icons/codepen.svg";
 import instagram from "./icons/instagram.svg";
+import twitter from "./icons/twitter_soc.svg";
 
 function SocialPanel(props) {
   return (
@@ -13,15 +14,6 @@ function SocialPanel(props) {
           src={email}
           className="icon"
           alt="Email me"
-          // width="32"
-          // height="32"
-        />
-      </a>
-      <a href="https://codepen.io/nikpath/pens/showcase">
-        <img
-          src={codepen}
-          className="icon"
-          alt="Codepen"
           // width="32"
           // height="32"
         />
@@ -44,11 +36,29 @@ function SocialPanel(props) {
           // height="32"
         />
       </a>
-      <a href="https://www.instagram.com/y2kaikai/">
+      <a href="https://codepen.io/nikpath">
+        <img
+          src={codepen}
+          className="icon"
+          alt="Codepen"
+          // width="32"
+          // height="32"
+        />
+      </a>
+      <a href="https://www.instagram.com/nikpath18/">
         <img
           src={instagram}
           className="icon"
           alt="Instagram"
+          // width="32"
+          // height="32"
+        />
+      </a>
+      <a href="https://twitter.com/y2kaikai">
+        <img
+          src={twitter}
+          className="icon"
+          alt="twitter"
           // width="32"
           // height="32"
         />

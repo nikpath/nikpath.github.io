@@ -1,33 +1,28 @@
 import "./css/InfoCard.css";
 import pdf from "./static/resume.pdf";
-import Arrow from "./Arrow";
-// import location from "./icons/location.svg";
-// import graduationcap from "./icons/graduation-cap.svg";
 
 function InfoCard(_) {
   return (
     <div className="card">
       <div className="blurb">
-        <p className="first">
-          Aspiring software engineer with an interest in UI/UX.
+        <p className="first">Aspiring front end engineer.</p>
+        <p>
+          I'm passionate about building sleek, intuitive and accessible UIs.
+          I’ve had five great internships where I’ve developed modern online
+          learning experiences, implemented web accessibility on an employee
+          engagement platform, and most recently built Figma plugins to help
+          designers at Twitter. I'm looking to continue providing inclusive and
+          impactful user experiences.
         </p>
         <p>
-          I love building intuitive, sleek and accessible UIs with React. I’ve
-          had four great internships where I’ve done everything from developing
-          modern{" "}
-          <a href="https://course.studio/">online learning experiences</a> to
-          implementing web accessibility on an{" "}
-          <a href="https://www.achievers.com/company/">
-            employee engagement platform.
-          </a>{" "}
-          I’m looking to continue expanding my horizons and making an impact.
+          Currently seeking full-time opportunities starting post graduation
+          2023.
         </p>
-        <p>Currently seeking internship opportunities May-Aug 2022.</p>
-        <div className="resume">
-          <a className="link-button" href={pdf}>
-            View Resume
-          </a>
-        </div>
+      </div>
+      <div className="resume">
+        <a className="link-button" href={pdf}>
+          View Resume
+        </a>
       </div>
     </div>
   );

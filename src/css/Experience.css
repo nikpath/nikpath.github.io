@@ -58,10 +58,10 @@
 .exp-number {
   color: #fa6ba1;
   font-family: Mosk_Heading;
-  font-size: 36px;
+  font-size: 20px;
   border-bottom: 3px solid #505050;
   padding-bottom: 7px;
-  width: 47px;
+  min-width: 10%;
 }
 
 @media (max-width: 800px) {
@@ -71,6 +71,20 @@
   }
 }
 
+.exp-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: none;
+  color: #505050;
+  font-family: Mosk_Heading;
+  font-size: 36px;
+}
+
+.logo-with-text {
+  padding: 0px 20px 0px 0px;
+}
 .exp-more {
   display: flex;
   align-items: center;
@@ -110,7 +124,12 @@
 .exp-body {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+}
+
+@media (max-width: 800px) {
+  .exp-body {
+    flex-wrap: wrap;
+  }
 }
 
 .exp-img {
