@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.945fdf1e.css",
-    "main.js": "/static/js/main.b61c176c.js",
+    "main.js": "/static/js/main.5b305ad2.js",
     "static/js/787.4f8c8fef.chunk.js": "/static/js/787.4f8c8fef.chunk.js",
     "static/media/CS_1.png": "/static/media/CS_1.0be01b6c5f3962f40b10.png",
     "static/media/achievers_1.jpeg": "/static/media/achievers_1.16d623f5c62cce1f062e.jpeg",
     "static/media/SpaceMono-Regular.ttf": "/static/media/SpaceMono-Regular.ab58bedcb5ec0e553893.ttf",
     "static/media/Mosk Semi-Bold 600.ttf": "/static/media/Mosk Semi-Bold 600.a1714ae59a9b4a833532.ttf",
     "static/media/Mosk Normal 400.ttf": "/static/media/Mosk Normal 400.4e24e76bdb6942dd7e16.ttf",
-    "static/media/resume.pdf": "/static/media/resume.7669bdf765a4b39cf4ce.pdf",
+    "static/media/resume.pdf": "/static/media/resume.cddcf4da089f86fdf981.pdf",
     "static/media/CS_logo.svg": "/static/media/CS_logo.d3e4919af7bf048f279aba80869e6592.svg",
     "static/media/twitter_1.webp": "/static/media/twitter_1.26d558a8966fc0a8c898.webp",
     "static/media/achievers_logo.svg": "/static/media/achievers_logo.717fc84c3a31fb250b5ed2aa3406ee58.svg",
@@ -22,11 +22,11 @@
     "static/media/linkedin.svg": "/static/media/linkedin.fc83d12431c3e09b200b04403ff55fb3.svg",
     "static/media/email.svg": "/static/media/email.48cf07522b13a669ec404b87eaf0a888.svg",
     "main.945fdf1e.css.map": "/static/css/main.945fdf1e.css.map",
-    "main.b61c176c.js.map": "/static/js/main.b61c176c.js.map",
+    "main.5b305ad2.js.map": "/static/js/main.5b305ad2.js.map",
     "787.4f8c8fef.chunk.js.map": "/static/js/787.4f8c8fef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.945fdf1e.css",
-    "static/js/main.b61c176c.js"
+    "static/js/main.5b305ad2.js"
   ]
 }
