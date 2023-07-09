@@ -5,13 +5,15 @@ import CS_logo from "./icons/CS_logo.svg";
 import CS_1 from "./icons/CS_1.png";
 import twitter_logo from "./icons/twitter.svg";
 import twitter_1 from "./icons/twitter_1.webp";
+import grounded_logo from "./icons/grounded_logo.png";
+import grounded_1 from "./icons/grounded_1.png";
 import pdf from "./static/resume.pdf";
 
 // TODO: move into components
 function Experience() {
   return (
     <div className="exp-section">
-      <div className="exp-section-header">My recent internship experiences</div>
+      <div className="exp-section-header">My recent co-op experience</div>
       <div className="exp-card">
         <div className="exp-number">May - Aug '22</div>
         <div className="exp-card-body">
@@ -37,18 +39,58 @@ function Experience() {
             </div>
             <div className="exp-text">
               <p>
-                Design engineers build design systems, prototypes and tools to
-                support the work that designers do. During my time at Twitter I
-                focused on building internal tools that would improve the
-                workflows of designers and create efficiency.
+                During my time at Twitter I focused on building tools that would
+                allow designers to iterate faster on designs. I built a tool
+                that scans Figma design files for tweet components and
+                auto-fills them with mock data making it easier to produce high
+                fidelity mock-ups.
               </p>
               <p>
-                I built a Figma plugin that scans design files for tweet
-                components and auto-fills them with mock data to help designers
-                quickly produce high fidelity mock-ups. I took charge of the
-                project and was able to expand it to include more
-                functionalities like including a variety of tweet types, and
-                even generating realistic reply, like and retweet numbers.
+                Using feedback from the designers, I then improved the tool by
+                adding more functionalities like including a variety of tweet
+                types, and generating realistic reply, like and retweet numbers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="exp-section-header">Past projects and experience</div>
+      <div className="exp-card">
+        <div className="exp-number">Jan - Apr '23</div>
+        <div className="exp-card-body">
+          <div className="exp-header">
+            <div className="exp-logo">
+              <img
+                className="logo-with-text"
+                src={grounded_logo}
+                alt="Logo"
+                width="50"
+                height="50"
+              ></img>
+              Mechatronics Capstone
+            </div>
+            <div className="exp-stack">
+              <div className="exp-dates">Waterloo, ON</div>
+              <div>React Native, C++ (Arduino)</div>
+            </div>
+          </div>
+          <div className="exp-body">
+            <div className="exp-img">
+              <img src={grounded_1} alt="Logo" width="350"></img>
+            </div>
+            <div className="exp-text">
+              <p>
+                For my final year project, we developed sock-like wearables that
+                auto-recognize stress symptoms and provide methods for relieving
+                stress. I developed the mobile app for interacting and
+                controlling the wearables in React Native. I designed the app to
+                be clear and simplistic for users.
+              </p>
+              <p>
+                I was also in charge of programming the wearable devices in C++.
+                This included polling the biometric sensor values, communication
+                to the mobile app via Bluetooth, and control of the motors in
+                the wearables when employing the stress relieving methods.
               </p>
             </div>
           </div>
