@@ -20,7 +20,7 @@ function App() {
         <Arrow />
       </div>
       <div className="copyright">
-        <p>&copy; Niki Pathak 2022</p>
+        <p>&copy; Niki Pathak 2023</p>
       </div>
     </div>
   );
