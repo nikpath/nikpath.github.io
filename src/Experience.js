@@ -42,13 +42,15 @@ function Experience() {
                 During my time at Twitter I focused on building tools that would
                 allow designers to iterate faster on designs. I built a tool
                 that scans Figma design files for tweet components and
-                auto-fills them with mock data making it easier to produce high
+                auto-fills them with mock data making it faster to produce high
                 fidelity mock-ups.
               </p>
               <p>
-                Using feedback from the designers, I then improved the tool by
-                adding more functionalities like including a variety of tweet
-                types, and generating realistic reply, like and retweet numbers.
+                Using feedback from designers across all product teams, I then
+                improved the tool by adding more functionalities like including
+                3 tweet formats, and generating realistic reply, like and
+                retweet numbers to further reduce monotonous tasks from the
+                designers' workflows.
               </p>
             </div>
           </div>
@@ -82,15 +84,17 @@ function Experience() {
               <p>
                 For my final year project, we developed sock-like wearables that
                 auto-recognize stress symptoms and provide methods for relieving
-                stress. I developed the mobile app for interacting and
-                controlling the wearables in React Native. I designed the app to
-                be clear and simplistic for users.
+                stress. This project was then presented to hundreds of people
+                and a panel of judges at the UWaterloo Mechatronics Symposium.
               </p>
               <p>
-                I was also in charge of programming the wearable devices in C++.
-                This included polling the biometric sensor values, communication
-                to the mobile app via Bluetooth, and control of the motors in
-                the wearables when employing the stress relieving methods.
+                I developed the mobile app for interacting and controlling the
+                wearables in React Native. I designed the app to be clear and
+                simplistic for users. I was also in charge of programming the
+                wearable devices (ESP32 microcontroller) in C++. This included
+                polling the biometric sensor values, communication to the mobile
+                app via Bluetooth, and control of the motors in the wearables
+                when employing the stress relieving methods.
               </p>
             </div>
           </div>
@@ -122,7 +126,7 @@ function Experience() {
                 Achievers provides an employee rewards and recognition platform
                 for companies looking to create a more incentivized and
                 tight-knit culture. During my time as an intern, I focused
-                primarily on implementing accessibility into the existing design
+                primarily on improving accessibility in the existing design
                 system and production site.
               </p>
               <p>
@@ -130,10 +134,11 @@ function Experience() {
                 component library so that any UIs using them would be accessible
                 out of the box. I also reworked UI flows to meet ARIA standards
                 and ensure that the content could be interacted with through
-                keyboards and screen readers. I also worked with designers to
-                ensure that more minimal, mobile UIs would have thorough
-                labelling and enough readable content, so as to provide a good
-                experience for all users.
+                keyboards and screen readers. Based on my work with the desktop
+                site, I was then put in charge of auditing the mobile site to
+                ensure that the more minimal UIs would have thorough labelling
+                and enough readable content, so as to provide a good experience
+                for all users.
               </p>
             </div>
           </div>
@@ -159,11 +164,11 @@ function Experience() {
               <p>
                 Course Studio builds sites for creators to sell, launch and
                 manage online courses. My role was to build an integration tool
-                between the Thinkific LMS API and the WordPress site that the
-                clients would use. The function of the tool was to help the site
-                developers add and manage data in the backend of the site and
-                also provide front-end integrations that the user would use to
-                manage their data.
+                between the Thinkific LMS API and the WordPress client site. The
+                function of the tool was to help the site developers add and
+                manage data in the backend of the site and also provide
+                front-end integrations that the user would use to manage their
+                data.
               </p>
             </div>
           </div>

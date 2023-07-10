@@ -5,19 +5,16 @@ function InfoCard(_) {
   return (
     <div className="card">
       <div className="blurb">
-        <p className="first">Aspiring front end engineer.</p>
+        <p className="first">Software engineer</p>
         <p>
-          I'm passionate about building sleek, intuitive and accessible UIs.
-          I’ve had five great internships where I’ve developed modern online
-          learning experiences, implemented web accessibility on an employee
-          engagement platform, and most recently built Figma plugins to help
-          designers at Twitter. I'm looking to continue providing inclusive and
-          impactful user experiences.
+          I graduated from Mechatronics Engineering from the University of
+          Waterloo in 2023. I’ve had five great internships where I've gained
+          experience building full-stack applications and working with a variety
+          of languages and frameworks. I'm looking to bring my skills and
+          passion for learning to a full-time opportunity where I can grow as a
+          software engineer.
         </p>
-        <p>
-          Currently seeking full-time opportunities starting post graduation
-          2023.
-        </p>
+        <p>Currently seeking full-time opportunities.</p>
       </div>
       <div className="resume">
         <a className="link-button" href={pdf}>
